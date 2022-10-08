@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-
 html,
 body {
   padding: 0;
@@ -21,4 +20,8 @@ a {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+}
 
