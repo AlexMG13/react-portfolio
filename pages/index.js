@@ -26,9 +26,9 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Alex Mendoza</h2>
             <h3 className='text-2xl py-2 md:text-3xl  dark:text-white'>Trainee React Developer </h3>
           <div className='text-3xl flex justify-center gap-16 py-3 dark:text-white'>
-            <a href="https://www.linkedin.com/in/alexgmendoza/" target='_blank'><AiFillLinkedin /></a>
-            <a href="https://www.instagram.com/un_alex1/" target='_blank'><AiFillInstagram /></a>
-            <a href="https://github.com/AlexMG13" target='_blank'><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/alexgmendoza/" target='_blank' rel="noreferrer" alt="linkedin"><AiFillLinkedin /></a>
+            <a href="https://www.instagram.com/un_alex1/" target='_blank' rel="noreferrer" alt="instagram"><AiFillInstagram /></a>
+            <a href="https://github.com/AlexMG13" target='_blank' rel="noreferrer" alt="github"><AiFillGithub /></a>
           </div>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover" />
