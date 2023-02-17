@@ -6,7 +6,7 @@ import deved from "../public/dev-ed-wave.png";
 import { useState } from "react";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -28,7 +28,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1otAZOqpmjDidMIkvzY-IeEymIXpqWD1f/view?usp=sharing"
+                  href="https://drive.google.com/file/d/19ohvaAh5Zg16zeGg1cjji_40y6prWlrI/view?usp=sharing"
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                 >
                   Mi CV
@@ -65,13 +65,13 @@ export default function Home() {
               <div className="text-center p-10">
                 <h3 className="text-3xl py-1  dark:text-white">Resumen</h3>
                 <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
-                  Hola soy Alex y estudio Ingenieria Informatica, a su vez me
+                  Hola soy Alex y estudio Ingenieria Informatica, a la vez me
                   capacito como desarrollador web con el objetivo de ser
                   desarrollador FullStack. Un listado de herramientas con las
                   que trabajo usualmente: html, css y javascript, React,
                   Boostrap y Tailwind, mySql, Postman, Java y Springboot, php y
                   Laravel, python y c++. En este momento estoy buscando una
-                  experiencia laborarl para poner a prueba mis conocimientos y
+                  experiencia laboral para poner a prueba mis conocimientos y
                   conocer otra parte del mundo IT!
                 </p>
               </div>
